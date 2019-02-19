@@ -8,6 +8,8 @@ import element from './modules/element'
 import filters from './modules/filters'
 import business from './modules/business'
 
+import system from './modules/system'
+
 import layoutHeaderAside from '@/layout/header-aside'
 
 /**
@@ -62,7 +64,8 @@ const frameIn = [
   components,
   element,
   filters,
-  business
+  business,
+  system
 ]
 
 /**

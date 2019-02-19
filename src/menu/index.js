@@ -17,8 +17,22 @@ import demoD2Crud from './modules/demo-d2-crud'
 // 第三方网页
 import demoFrame from './modules/demo-frame'
 
+// 系统设置
+import system from './modules/system'
+// 角色管理
+import roles from './modules/roles'
+// 人力资源
+import users from './modules/users'
+// 模块管理
+import modules from './modules/modules'
+// 菜单管理
+import menus from './modules/menus'
+// 门户管理
+import portals from './modules/portals'
+
 // 菜单 侧边栏
 export const menuAside = [
+  system,
   demoComponents,
   demoPlugins,
   demoCharts,
@@ -37,6 +51,12 @@ export const menuHeader = [
     title: '首页',
     icon: 'home'
   },
+  system,
+  // roles,
+  // users,
+  // modules,
+  // menus,
+  // portals,
   {
     title: '功能',
     icon: 'puzzle-piece',
