@@ -38,7 +38,7 @@
         </el-form-item>
         <el-form-item label="密码有效期">
             <el-input v-model="passwordForm.validNums" style="width: 100px;"></el-input>
-            <el-select v-model="passwordForm.validType" placeholder="请选择" style="width: 70px;">
+            <el-select v-model="passwordForm.validType" placeholder="请选择" style="width: 90px;">
                 <el-option
                         v-for="item in validTypeOptions"
                         :key="item.value"
@@ -131,7 +131,3 @@
     }
   }
 </script>
-
-<style scoped>
-
-</style>
